@@ -1,0 +1,26 @@
+jQuery Terminal Console - JavaScript Terminal Console Overlay Bookmarklet
+  (c) 2009 - 2013 Arcticfire
+  Released under The MIT License.
+
+Small Bookmarklet Which Dynamically Adds Jquery To The Current Page If Not Already Present Then Presents
+A Small Terminal Console Overlay For Evaluating Javascript And jQuery Expressions.
+
+How to use:
+
+* Run `rake` To Generate Bookmarklet.html
+* Open Bookmarklet.html In Your Browser
+* Drag The "jQuery Terminal Console" Link To Your Bookmarks Bar
+* If You Can Drag It, Right-Click It And Hit: Add Favorite, Bookmark link, Or Whatever Does It For You Browser
+* Click The Bookmarklet To Toggle The Terminal Window, On Or Off
+
+Mac Users Can Replace Steps 1 And 2 With `rake open`
+
+
+Usage Notes:
+
+* Up/Down Arrow Keys Scroll Through Command History
+* Result Of Last Evaluated Expression Stored In _
+* Result Of Last Evaluated Jquery Selector Stored In _$
+* Shorthand Syntax For Executing Jquery Selector: "$ div.lol > a"
+* "this" Is An Anonymous Object; Type "reset!" To Reset It.
+* help or Help To Display The Gelp Information
